@@ -44,6 +44,8 @@ amplitude followed by an increase in the largest amplitude or R-peak by using li
 transformations relative to the other portions of the signal. Thus, guaranteeing that the
 R-peaks are uninterrupted and undisturbed.
 
+![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/Diagrams/SignalEngineering.PNG)
+
 On the contrary, superimposing disturbance to the raw signal data
 is also a logical concern. While clean, noise-filtered data is essential for evaluating a
 model’s performance on a faultless condition, it is equally imperative to take into
@@ -57,6 +59,8 @@ The proposed model consists of five consecutive convolution layers, each with a 
 layer is 32, while the second and third layer include 64 filters and lastly, 128 for the
 fourth and fifth layer. A feature map can be obtained through the operation of convolving the input with the specified kernels or filters.
 
+![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/Diagrams/CNN-LSTM.PNG)
+
 Following each LSTM layer, another subsampling layer is implemented. The temporal sequence output of the individual LSTM layer is carried by the pooling layer
 which then, applies temporal Max-pooling and guides it to the subsequent layers. A
 flatten layer is used to perform a flattening operation that collapses the pooled feature
@@ -65,5 +69,15 @@ compiled by extracting from the previous layer and then, process it by performin
 SoftMax operation in the final layer of the model, where probabilities for each of the
 classes are assigned to classify arrhythmia, which can be represented as 'N', 'S', 'V', 'F'
 or 'U'. 
+
+## Performance Analysis & Conclusion
+This paper proposes
+an efficient computer-aided diagnosis system that encompasses a feature selection
+algorithm PCA and a classification technique based on CNN + LSTM network structure to accurately identify five fragments of arrhythmia ailments. One-dimensional
+signals acquired from ECG Physiobank (PTB) database are synthesized to create multiple instances for evaluating the model’s performance under various circumstances.
+The accuracy of using smooth and denoised signals achieved 99% while the accuracy
+of using artificially generated noise signals achieved 98%, confirming a satisfactory
+and consistent generalization performance and could be a convenient tool for assisting
+clinicians to diagnose cardiovascular disease and reduce their workload significantly.
 
 • Conference Paper Link: https://link.springer.com/chapter/10.1007/978-981-16-8774-7_32
