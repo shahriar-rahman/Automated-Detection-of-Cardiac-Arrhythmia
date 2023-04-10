@@ -71,10 +71,14 @@ classes are assigned to classify arrhythmia, which can be represented as 'N', 'S
 or 'U'. 
 
 ## Performance Analysis & Conclusion
+![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/Diagrams/ResultsTabular.PNG)
 This paper proposes
 an efficient computer-aided diagnosis system that encompasses a feature selection
 algorithm PCA and a classification technique based on CNN + LSTM network structure to accurately identify five fragments of arrhythmia ailments. One-dimensional
 signals acquired from ECG Physiobank (PTB) database are synthesized to create multiple instances for evaluating the model’s performance under various circumstances.
+
+![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/Diagrams/ConfusionMatrix.PNG)
+
 The accuracy of using smooth and denoised signals achieved 99% while the accuracy
 of using artificially generated noise signals achieved 98%, confirming a satisfactory
 and consistent generalization performance and could be a convenient tool for assisting
