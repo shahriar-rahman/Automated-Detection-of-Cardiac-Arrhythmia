@@ -38,7 +38,7 @@ Thus, it is also worth assessing the model’s accuracy for the worst-case scena
 </br></br>
 
 
-## CNN-LSTM Network
+## ◘ CNN-LSTM Network
 The proposed model consists of five consecutive convolution layers, each with a single stride and a kernel size of five. Padding is applied to maintain the identical dimension as the input for the following convolution layers, which can be achieved by applying shorter-length segments with zero padding. The number of filters for the first
 layer is 32, while the second and third layers include 64 filters, and lastly, 128 for the
 fourth and fifth layers. A feature map can be obtained through the operation of convolving the input with the specified kernels or filters.
@@ -50,7 +50,7 @@ Following each LSTM layer, another subsampling layer is implemented. The tempora
 
 </br></br>
 
-## Performance Analysis & Conclusion
+## ◘ Performance Analysis & Conclusion
 ![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/Diagrams/ResultsTabular.PNG)
 This research proposes an efficient computer-aided diagnosis system that encompasses a feature selection algorithm PCA and a classification technique based on CNN + LSTM network structure to accurately identify five fragments of arrhythmia ailments. One-dimensional signals acquired from ECG Physiobank (PTB) database are synthesized to create multiple instances for evaluating the model’s performance under various circumstances.
 
@@ -58,3 +58,4 @@ This research proposes an efficient computer-aided diagnosis system that encompa
 
 The accuracy of using smooth and denoised signals achieved 99% while the accuracy of using artificially generated noise signals achieved 98%, confirming a satisfactory and consistent generalization performance and could be a convenient tool for assisting clinicians to diagnose cardiovascular disease and reduce their workload significantly.
 
+</br>
