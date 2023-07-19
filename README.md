@@ -3,20 +3,22 @@ An automated prediction algorithm is constructed using various pre-processing st
 </br>
 [Conference Paper Link](https://link.springer.com/chapter/10.1007/978-981-16-8774-7_32)
 
+![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/img/arrhythmia.jpg)
+
 ## Abstract
 Cardiac Arrhythmia is an irregular sequence of electrical impulses
-which result in numerous shifts in heart rhythms. Such cardiac abnormalities
+that result in numerous shifts in heart rhythms. Such cardiac abnormalities
 can be observed using a standard medical examination known as Electrocardiogram (ECG). However, with the drastic increase in heart-disease patients, interpreting such pulsations on ECG can be time-consuming and a challenging task.
 Thus, the primary objective of this paper is to propose an automated system
 based on a hybrid model which consists of an amalgamation of Convolutional
 Neural Networks (CNN) and Long-Short Term Memory (LSTM) in order to accurately detect and classify several cardiac arrhythmia ailments. The model incorporates a feature selection algorithm, Principal Component Analysis (PCA),
-that ingresses the new features into 14-layers deep one-dimensional CNNLSTM network. The experiment is conducted using PhysionNet’s MIT-BIH
+that ingresses the new features into 14-layer deep one-dimensional CNNLSTM network. The experiment is conducted using PhysionNet’s MIT-BIH
 and PTB Diagnostics datasets and multiple strategies have been contemplated
 for evaluation purposes: firstly, using smooth ECG signals with filtered noise
 and alternatively, using signals that encompass artificially generated noise
 based on a Gaussian distribution. The proposed system achieved an accuracy of
 99% with the denoised sets and 98% using the data with artificially generated
-noise, exhibiting a consistent and robust generalization performance and possesses the potential to be used as an auxiliary tool to assist clinicians in arrhythmia diagnoses.
+noise, exhibiting a consistent and robust generalization performance and possessing the potential to be used as an auxiliary tool to assist clinicians in arrhythmia diagnoses.
 
 ## Introduction & Objective
 Arrhythmias can be categorized into non-ectopic (N), ventricular tachycardia (V),
