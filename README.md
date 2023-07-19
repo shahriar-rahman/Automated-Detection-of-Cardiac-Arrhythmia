@@ -1,7 +1,7 @@
 # **Automated Detection of Cardiac Arrhythmia based on a Hybrid CNN-LSTM Network**
 An automated prediction algorithm is constructed using various pre-processing strategies based on a Hybrid Convolutional Neural Network and Long-Short Term Memory (CNN-LSTM Network). 
 </br>
-[Conference Paper Link](https://link.springer.com/chapter/10.1007/978-981-16-8774-7_32)
+[Published Conference Paper Link](https://link.springer.com/chapter/10.1007/978-981-16-8774-7_32)
 
 ![alt text](https://github.com/shahriar-rahman/Automated-Detection-of-Cardiac-Arrhythmia/blob/main/img/arrhythmia.jpg)
 
